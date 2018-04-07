@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es" class="no-js">
+    <head>
+		<title></title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="dist/materialize/css/materialize.min.css">
+	</head>
+	<body>		
+		
+	<nav>
+		<div class="nav-wrapper">
+		  <a href="#" class="brand-logo">Logo</a>		 
+			<ul class="right hide-on-med-and-down">
+				<li><a>Telefono</a></li>
+				<li><a>Correo</a></li>
+				<li><a>Twiiter</a></li> 
+				<li><a>Facebook</a></li>
+				<li><a>Google Plus</a></li>
+			 </ul>					  
+		</div>
+	</nav>
+	<header class="light-blue darken-3">	  
+		<div class="valign-wrapper">
+			<h1 class="valign center white-text">
+				Tengo una idea genial que hara que tus ventas incrementen. <br>				
+			</h1>
+		</div>
+		<div class="row">
+		<div class="col s6 offset-s3">
+		<button data-target="modal1" class="btn pulse orange accent-4 col s12" data-position="top" data-delay="50" data-tooltip="Call To Action">
+			LLevame ahí, Baby
+		</button>
+		</div>
+		</div>
+	</header>
+		<div class="container">
+			<div class="row">
+			<form class="col s12">
+				<div class="row">
+					<div class="input-field col s12">
+					<input id="first_name" type="text" class="validate">
+					<label for="first_name">Nombre</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s12">
+					<input id="email" type="email" class="validate">
+					<label for="email">Email</label>
+					</div>
+				</div>
+			  <div class="row">
+					<div class="input-field col s12">
+					<input id="phone" type="tel" class="validate">
+					 <label for="phone">Telefono</label>
+					</div>
+			  </div>
+			  <div class="row">		
+				<button class="waves-effect waves-light btn-large col s12"> Notificar </button>	
+			  </div>
+			</form>
+			</div>        
+		</div>
+		
+        <footer class="page-footer">
+          <div class="footer-copyright">
+            <div class="container">
+				© 2018 Licencia GPL v3. Powered by ❤ junglaCODE
+				<aside class="right">				
+					<i>Twiiter</i> &middot; <i>Facebook</i> &middot; <i>Google Plus</i>
+				</aside>
+            </div>
+          </div>
+        </footer>
+		
+		<!-- Modal Structure -->
+  <div id="modal1" class="modal bottom-sheet">
+    <div class="modal-content">
+      <h4>Task List Componentes</h4>
+    </div>
+    <div class="modal-footer">
+     	<ul class="collection with-header">
+			<li class="collection-item active">Navigator</li>
+			<li class="collection-item  active">Formulario</li>
+			<li class="collection-item active">Call Action</li>
+			<li class="collection-item active">Header</li>
+			<li class="collection-item">Testimoniales</li>
+			<li class="collection-item">Ubicación</li>
+			<li class="collection-item">Social Media</li>
+			<li class="collection-item">Productos</li>
+			<li class="collection-item active">Footer</li>			
+		</ul>
+    </div>
+  </div>
+		<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script src="dist/materialize/js/materialize.min.js"></script>		
+		<script>	
+		$(document).ready(function(){
+			$('.modal').modal();
+			 $('.pulse').tooltip({delay: 50});
+		});        
+		</script>
+	</body>
+</html>
