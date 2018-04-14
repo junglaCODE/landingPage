@@ -4,38 +4,58 @@
 		<title></title>
 		<meta charset="utf-8" />
 		<link rel="stylesheet" href="dist/materialize/css/materialize.min.css">
+		<link rel="stylesheet" href="dist/materialize/css/ghpages-materialize.css">
 	</head>
 	<body>		
 		
 	<nav>
 		<div class="nav-wrapper">
-		  <a href="#" class="brand-logo">Logo</a>		 
+			<a href="#" class="brand-logo">Logo</a>
+			<a href="#" data-activates="mobile-demo" class="button-collapse">
+				<i class="material-icons">menu</i>
+			</a>		  
 			<ul class="right hide-on-med-and-down">
 				<li><a>Telefono</a></li>
 				<li><a>Correo</a></li>
-				<li><a>Twiiter</a></li> 
-				<li><a>Facebook</a></li>
-				<li><a>Google Plus</a></li>
-			 </ul>					  
+				<li><a><img src='dist/img/facebook-box.png' class="responsive-img"> </a></li> 
+				<li><a><img src='dist/img/twitter-box.png' class="responsive-img"> </a></li>
+				<li><a><img src='dist/img/google-plus-box.png' class="responsive-img"> </a></li>
+			</ul>		
+			<ul class="side-nav" id="mobile-demo">
+				<li><a href="sass.html">Sass</a></li>
+				<li><a href="badges.html">Components</a></li>
+				<li><a href="collapsible.html">Javascript</a></li>
+				<li><a href="mobile.html">Mobile</a></li>
+			</ul>			 
 		</div>
 	</nav>
-	<header class="light-blue darken-3">	  
-		<div class="valign-wrapper">
-			<h1 class="valign center white-text">
-				Tengo una idea genial que hara que tus ventas incrementen. <br>				
-			</h1>
+	
+		<div class="slider">
+			<ul class="slides">
+			  <li>
+				<div class="caption left-align">
+				  <h1>Tengo una idea genial que hará que ganes mucho dinero</h1>
+				</div>
+			  </li>
+			  <li>
+				<div class="caption right-align">
+				  <h1>Lo mejor aun es que no tienes que vender ningún un órgano</h1>
+				</div>
+			  </li>
+			  <li>
+				<div class="caption center-align">
+				  <h1>Llena el formulario que está abajo, y te trasmitiré el conocimiento </h1>
+				  	<button data-target="modal1" class="btn pulse orange" data-position="top" data-delay="50" data-tooltip="Call To Action">
+						LLevame ahí, Baby
+					</button>
+				</div>
+			  </li>
+			</ul>
 		</div>
-		<div class="row">
-		<div class="col s6 offset-s3">
-		<button data-target="modal1" class="btn pulse orange accent-4 col s12" data-position="top" data-delay="50" data-tooltip="Call To Action">
-			LLevame ahí, Baby
-		</button>
-		</div>
-		</div>
-	</header>
+		
 		<div class="container">
 			<div class="row">
-			<form class="col s12">
+			<form class="col s7">
 				<div class="row">
 					<div class="input-field col s12">
 					<input id="first_name" type="text" class="validate">
@@ -58,15 +78,113 @@
 				<button class="waves-effect waves-light btn-large col s12"> Notificar </button>	
 			  </div>
 			</form>
-			</div>        
+			<div class="col s5">
+				<blockquote class="flow-text  light-blue darken-4 white-text">
+					<h4 class="left-align">No se trata de tener las oportunidades correctas, se trata de manejar las oportunidades correctamente</h4> 
+					<h5 class="right-align">– Mark Hunter</h5>
+				</blockquote>
+			</div>
+			</div>  
+			
+			<div class="row">
+				<div class="col s12"> 
+				 <div class="col s4">		
+					<div class="row">
+						<div class="col s4">
+							<img src="dist/img/banana.jpg" class="responsive-img" alt="producto banana">
+						</div>
+						<div class="col s8">
+							<ul class="collection with-header">
+								<li class="collection-header"><h4>Bananeo</h4></li>
+								<li class="collection-item">Es Amarrilla</li>
+								<li class="collection-item">Tiene Cascara</li>
+								<li class="collection-item">Piene ácido fólico </li>
+								<li class="collection-item">Puedes usarla <b>para alburear</b></li>
+							</ul>
+						</div>
+				  </div>            
+				</div>
+				<div class="col s4">		
+					<div class="row">
+						<div class="col s4">
+							<img src="dist/img/pizza.jpg" class="responsive-img" alt="producto pizza">
+						</div>
+						<div class="col s8">
+							<ul class="collection with-header">
+								<li class="collection-header"><h4>Pizzeo</h4></li>
+								<li class="collection-item">Es rendoda</li>
+								<li class="collection-item">Es sabrosa</li>
+								<li class="collection-item">Tiene 1ueso</li>
+								<li class="collection-item">Al verla te sabiduría <b> pi = p x r2</b></li>
+							</ul>
+						</div>
+				  </div>            
+				</div>
+				<div class="col s4">		
+					<div class="row">
+						<div class="col s4">
+							<img src="dist/img/cerveza.jpg" class="responsive-img" alt="producto cerveseo">
+						</div>
+						<div class="col s8">
+							<ul class="collection with-header">
+								<li class="collection-header"><h4>Cerveseo</h4></li>
+								<li class="collection-item">Deliciosa</li>
+								<li class="collection-item">Desinflama músculos</li>
+								<li class="collection-item"> Varias presentaciones </li>
+								<li class="collection-item">Aumenta tu <b>coeficiente filosófico</b></li>
+							</ul>
+						</div>
+				  </div>            
+				</div>
+			</div>
 		</div>
+			
+			<div class="row">
+				<div class="col s12 m6">
+				<div class="row">
+					<div class="col s3">
+						<img src="dist/img/macaco.jpg" class="responsive-img" alt="testimonial monkey">
+						El macaco @alfa_love
+					</div>
+					<div class="col s9">
+						<div class="card-panel teal">
+							<span class="white-text"> 
+								" Pus yo me comi una pizza y una cerveza. Me las chingue y toda mi 
+									autoestima crecio ahora soy el alfa de la jungla y tengo dos amantes sin haberme casado
+							</span>
+						</div>
+					</div>
+				</div>
+				</div>
+				<div class="col s12 m6">
+				<div class="row">				
+					<div class="col s9">
+						<div class="card-panel teal">
+							<span class="white-text"> 
+								" Yo he probado sus bananas y para serles sincera es lo mejor que tienen. Desde que las tuve siento que me 
+									veo más mona que changa y eso que soy una simia.
+							</span>
+						</div>
+					</div>
+					<div class="col s3">
+						<img src="dist/img/pamela.jpg" class="responsive-img" alt="testimonial monkey">
+						 Pame @dreamer_cool
+					</div>
+				</div>
+				</div>
+			</div>			
+			
 		
         <footer class="page-footer">
           <div class="footer-copyright">
             <div class="container">
 				© 2018 Licencia GPL v3. Powered by ❤ junglaCODE
 				<aside class="right">				
-					<i>Twiiter</i> &middot; <i>Facebook</i> &middot; <i>Google Plus</i>
+					<img src='dist/img/facebook-box.png' class="responsive-img"> 
+					&middot; 
+					<img src='dist/img/twitter-box.png' class="responsive-img">
+					&middot; 
+					<img src='dist/img/google-plus-box.png' class="responsive-img">
 				</aside>
             </div>
           </div>
@@ -80,13 +198,13 @@
     <div class="modal-footer">
      	<ul class="collection with-header">
 			<li class="collection-item active">Navigator</li>
-			<li class="collection-item  active">Formulario</li>
+			<li class="collection-item active">Formulario</li>
 			<li class="collection-item active">Call Action</li>
 			<li class="collection-item active">Header</li>
-			<li class="collection-item">Testimoniales</li>
+			<li class="collection-item active">Testimoniales</li>
 			<li class="collection-item">Ubicación</li>
-			<li class="collection-item">Social Media</li>
-			<li class="collection-item">Productos</li>
+			<li class="collection-item active">Social Media</li>
+			<li class="collection-item active">Productos ó servicios</li>
 			<li class="collection-item active">Footer</li>			
 		</ul>
     </div>
@@ -96,7 +214,11 @@
 		<script>	
 		$(document).ready(function(){
 			$('.modal').modal();
-			 $('.pulse').tooltip({delay: 50});
+			$('.pulse').tooltip({delay: 50});
+			$(".button-collapse").sideNav();
+			$('.slider').slider({
+				'indicators' : false
+			});
 		});        
 		</script>
 	</body>
