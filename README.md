@@ -16,4 +16,10 @@ Esquema de paginas de aterrizaje con elementos esenciales para incrementar las v
 * Fernando Sanchez Ruíz
 * Francisco Vazquez Nava 
 
+#### Para que me sirven
+[Que es una landingPage](http://blog.junglacode.org/time-machine/incrmentar-ventas-con-landing-page/)
+[Proceso de venta de la una landingPage](http://blog.junglacode.org/time-machine/quiero-una-landing-page-para-mi-negocio/)
+
+
+[Ver el demo](http://demos.junglacode.org/landingpage/)
 [I ♥ junglaCODE ](https://www.junglacode.org)
