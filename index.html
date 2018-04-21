@@ -7,6 +7,13 @@
 		<link rel="stylesheet" href="dist/materialize/css/ghpages-materialize.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<link rel="stylesheet" href="dist/css/style.css">
+    <style>
+     #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+    <script type="text/javascript" src="dist/js/funciones_landing.js"> </script>
 	</head>
 	<body>
     <div class="light-blue darken-4">
@@ -216,6 +223,9 @@
 	</div>
 	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 	<script src="dist/materialize/js/materialize.min.js"></script>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLIBNw81fbEjgDUBFSG6i2kXrXQJW7TMw&callback=initMap">
+  </script>
 	<script>
 		$(document).ready(function(){
 			$('.modal').modal();
