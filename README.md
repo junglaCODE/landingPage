@@ -6,11 +6,13 @@ Esquema de paginas de aterrizaje con elementos esenciales para incrementar las v
 * Jquery
 * Angular
 * PHP
+* API Google Maps
 
 ### Versiones
 
 **14-04-2018** : Incorporación de **todos los elementos** excepto el mapa. **Responsive & Adaptative** con menu para moviles
 **20-04-2018** : Mejora la visualización de los **elementos para moviles**, anexo de **top-bar** una mejor visualización de información, se arregla el problema del footer ahora es expandido al ancho de la pantalla
+**21-04-2018**: Incorporación de localización y mejora de visualización del modal
 
 ### Autores
 * Juan Luis García Corrales
